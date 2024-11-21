@@ -176,24 +176,26 @@ header {
 
 .swiper .swiper-button-prev {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     top: 50%;
     left: 60%;
     z-index: 100;
-    background-color: red;
+    
 }
 /* O botão anterior do swiper está posicionado com largura e altura de 60px, no centro vertical e com fundo vermelho. */
 
 .swiper .swiper-button-next {
     position: absolute;
+    
     right: 70%;
     top: 50%;
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     z-index: 100;
-    background-color: blue;
+   
 }
+
 /* O botão próximo do swiper está posicionado com largura e altura de 60px, no centro vertical e com fundo azul. */
 
 .swiper .swiper-button-next::after,
@@ -207,6 +209,7 @@ header {
     line-height: 0;
     background: transparent;
     border-radius: 50%;
+    content: "";
 }
 /* Os ícones dentro dos botões anterior e próximo estão centralizados, com cor semitransparente, largura e altura de 60px, e bordas arredondadas. */
 
